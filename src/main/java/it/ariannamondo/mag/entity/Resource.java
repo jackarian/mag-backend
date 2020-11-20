@@ -45,7 +45,7 @@ public class Resource implements Serializable {
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 20)
-    @Column(nullable = false, length = 20)
+    @Column(name = "resource_type",nullable = false, length = 20)
     private String type;
     @Basic(optional = false)
     @NotNull

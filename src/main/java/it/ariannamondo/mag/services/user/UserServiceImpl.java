@@ -78,7 +78,7 @@ public class UserServiceImpl extends AbstractService implements UserService,User
     }
 
     @Override
-    public Response getuserByName(String name) {
+    public Response<User> getuserByName(String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

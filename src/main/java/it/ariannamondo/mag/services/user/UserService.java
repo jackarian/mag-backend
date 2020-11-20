@@ -32,7 +32,7 @@ public interface UserService extends UserDetailsService{
     List<User> findRange(int[] range);
 
     int count();
-    Response getuserByName(String name);  
+    Response<User> getuserByName(String name);  
     
     public Response<User>  getLogin(String login, String string);
     public Response<UserLog> createLog(String address,String useragent,User user);
